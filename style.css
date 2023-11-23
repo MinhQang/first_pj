@@ -1,0 +1,80 @@
+.app {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: auto; 
+    font-weight: auto;
+    background-image: url();
+  }
+.list-button{ display: flex;}
+ .button { 
+    height: 25px;
+    margin-left: 6px;
+    border-radius: 5px;
+    border:none; 
+    background-color: #fff;}
+.button:hover{
+    background-color: rgb(211, 211, 211);
+}
+  .board {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+ .game {
+          
+           text-align: center;
+           margin-top: 20px;
+ }
+  .board-row {
+            display: flex;
+            justify-content: center;
+  }
+
+  .board-status {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+  }
+
+  .status {
+            margin-right: 20px; font-weight: 500;
+  }
+
+  .squares button {
+            border-radius: 0px;
+  }
+
+  .square {
+            background: #fff;
+            border: 1px solid #999;
+            float: left;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 28px;
+            height: 28px;
+            margin-right: -1px;
+            margin-top: -1px;
+            padding: 0;
+            text-align: center;
+            width: 28px;
+  }
+
+  .square:focus {
+            outline: none;
+  }
+
+  .restart-btn {
+            width: 28px;
+            height: 28px;
+  }
+  .img{
+    background-color: none;
+    height: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+  }
